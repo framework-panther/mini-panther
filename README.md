@@ -1,7 +1,7 @@
 Framework Panther
 ================
 
-<img src="https://github.com/framework-panther/framework/blob/master/img/framework-panther-banner.png">
+<img src="https://github.com/framework-panther/panther/img/framework-panther-banner.png">
 
 <p align="left">
 <a href="https://www.php.net/releases/8.0/pt_BR.php"><img src="https://github.com/framework-panther/framework/blob/master/img/php.svg" alt="PHP:8"></a>
