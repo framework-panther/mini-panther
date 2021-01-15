@@ -4,7 +4,7 @@
 # Autor: Valter A. Valentin
 # Licença GPL 3.0
 
-session_star();
+session_start();
 require 'config.php';
 
 spl_autoload_register(function($class){
