@@ -6,4 +6,4 @@
  * Licença GPL 3.0
  */
 
-    echo 'Olá Framework Panther';
+    echo 'Olá, Framework Panther!';
