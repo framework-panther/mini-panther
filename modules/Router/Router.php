@@ -32,7 +32,44 @@ class Router {
     }
     
     public function match() {
+        $url = ((isset($_GET['url']))?$_GET['url']:'');
         
+        switch ($_SERVER['REQUEST_METHOD']) {
+            case 'GET':
+            default:
+                $type = $this->get;
+                break;
+            case 'POST':
+                $type = $this->post;
+                break;           
+        }
+        
+        // Loop em todos os routes
+        foreach($type as $pt => $func) {
+            // Identifica os argumentos e substitui por regex
+            $pattern = preg_replace('(\{[a-z0-9]{0,}\})', '([a-z0-9]{0,})', $pt);
+            
+            // Faz o match de URL
+            if(preg_match('#^('.$pattern.')*$#i', $url, $matches) === 1) {
+                array_shift($matches);
+                array_shift($matches);
+                
+                $itens = array();
+                if(preg_match_all('(\{[a-z0-9]{0,}\})', $pt, $m)) {
+                    $itens = preg_replace('(\{|\})', '', $m[0]);
+                    
+                }
+                
+                // Faz a associação
+                $arg = array();
+                foreach($matches as $key => $match) {
+                    $arg[$itens[$key]] = $match;
+                }
+                
+                $func($arg);
+                break;
+            }
+        }
     }
     
     public function get($pattern, $function) {
