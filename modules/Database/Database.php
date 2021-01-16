@@ -37,7 +37,7 @@ class Database {
         return $this->pdo->prepare($sql);
     }
     
-    public function execute($array) {
+    public function execute($sql) {
         return $this->pdo->execute($array);
     }
 }
