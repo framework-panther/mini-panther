@@ -10,8 +10,12 @@ $this->get('noticias', function($arg) {
 
 $this->get('noticias/{id}', function($arg) {
     $tpl = $this->core->loadModule('template');
+    $db = $this->core->loadModule('database');
     
-    $array = array('id'=>$arg['id']);
+    $sql = $db->query("SELECT * FROM noticias");
+    $array = $sql->fetchAll();
+    
+    print_r($array);
     
     $tpl->render('teste', $array);
 });
