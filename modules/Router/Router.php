@@ -6,6 +6,7 @@
 
 class Router {
     
+    private $core;
     private $get;
     private $post;
     
@@ -20,6 +21,7 @@ class Router {
     }
     
     public function load() {
+        $this->core = Core::getInstance();
         $this->loadRouteFile('default');
         
         return $this;
