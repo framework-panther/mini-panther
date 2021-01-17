@@ -1,4 +1,4 @@
-Framework Panther
+Mini-Framework Panther
 ================
 
 <img src="https://github.com/framework-panther/mini-panther/blob/master/img/framework-panther-banner.png">
