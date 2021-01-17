@@ -1,7 +1,7 @@
 Framework Panther
 ================
 
-<img src="https://github.com/framework-panther/panther/blob/master/img/framework-panther-banner.png">
+
 
 
 ### Framework Panther
