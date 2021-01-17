@@ -1,6 +1,7 @@
 Framework Panther
 ================
 
+<img src="https://github.com/framework-panther/mini-panther/blob/master/img/framework-panther-banner.png">
 <p align="left">
     <a href="https://www.php.net/releases/8.0/pt_BR.php" target="_blank"><img src="https://github.com/framework-panther/mini-panther/blob/master/img/php.svg" alt="PHP:8"></a>
     <a href="https://www.javascript.com/" target="_blank"><img src="https://github.com/framework-panther/mini-panther/blob/master/img/javascript.svg" alt="JavaScript"></a>
@@ -9,8 +10,6 @@ Framework Panther
     <a href="https://github.com" target="_blank"><img src="https://github.com/framework-panther/mini-panther/blob/master/img/test.svg" alt="Test"></a>
     <a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html" target="_blank"><img src="https://github.com/framework-panther/mini-panther/blob/master/img/licenca.svg" alt="License"></a>
 </p>
-
-
 
 ### Framework Panther
 
