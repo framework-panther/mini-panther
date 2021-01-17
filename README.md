@@ -10,7 +10,7 @@ Framework Panther
     <a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html" target="_blank"><img src="https://github.com/framework-panther/mini-panther/blob/master/img/licenca.svg" alt="License"></a>
 </p>
 
-<img src="https://github.com/framework-panther/mini-panther/blob/master/img/framework-panther-banner.png">
+
 
 ### Framework Panther
 
